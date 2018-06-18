@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import UserGuess from './userGuess';
+import RecentGuess from './recentGuess'
 import './App.css';
 
-class App extends Component {
+export default class App extends React.Component {
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className='wrapper'>
+        <h1>Hot OR Cold?</h1>
+        <UserGuess label='Pick a number between 1 and 100'/>
+        <RecentGuess guess='8' />
       </div>
     );
   }
 }
 
-export default App;
+

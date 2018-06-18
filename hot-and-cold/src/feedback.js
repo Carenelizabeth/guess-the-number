@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function GuessFeedback(props){
     return(
-            <span>props.feedback</span>
+            <span>{props.feedback}</span>
     )
 }

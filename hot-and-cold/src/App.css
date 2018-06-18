@@ -1,0 +1,11 @@
+.wrapper{
+    width: 500px;
+    height: 600px;
+    margin: 100px auto;
+    border: solid 2px darkblue;
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+}

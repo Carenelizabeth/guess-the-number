@@ -1,4 +1,5 @@
 import React from 'react';
+import './userGuess.css';
 
 export default class UserGuess extends React.Component{
     render(){

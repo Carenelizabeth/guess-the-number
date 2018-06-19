@@ -1,16 +1,20 @@
-.recent-guess, .green, .red{
+.recent-guess, .blue, .red, .green{
     font-size: 36px;
     font-weight: bold;
 }
 
-.green{
-    color: #039C3A;
+.blue{
+    color: #2364CF;
 
 }
 
 .red{
     color: #A80743;
 
+}
+
+.green{
+    color: #1CA128;
 }
 
 p{

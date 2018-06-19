@@ -1,4 +1,5 @@
 import React from 'react'
+import './history.css'
 
 export default function History(props){
 
@@ -6,7 +7,10 @@ export default function History(props){
 
     return(
         <div className='guess-history'>
-            {history.map((item, index) => <p index={index}>{item}</p>)}
+            <h2>History</h2>
+            <div className='past-answers'>
+                {history.map((item, index) => <p index={index}>{item}</p>)}
+            </div>
         </div>    
     )
 

@@ -5,7 +5,7 @@ export default function Feedback(props){
 
     return(
         <div className='user-feedback'>
-            <p>{props.guess}is{props.feedback}</p>
+            <p><span className='recent-guess'>{props.guess}</span> is <span className={props.color}>{props.feedback}</span></p>
         </div>
     )
 }

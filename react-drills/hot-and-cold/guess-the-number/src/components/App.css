@@ -1,0 +1,22 @@
+.wrapper{
+    width: 650px;
+    background-color: #B7FAF5;
+    border: 2px solid #16302E;
+    margin: 100px auto;
+}
+
+.title{
+    background-color: #16302E;
+    color: white;
+    padding: 20px;
+}
+
+.body-info{
+    padding: 0 20px;
+    display: flex;
+}
+
+.current-info{
+    border-right: 2px solid #16302E;
+    width: 325px;
+}

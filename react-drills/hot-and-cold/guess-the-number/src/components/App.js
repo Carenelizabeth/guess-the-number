@@ -10,9 +10,16 @@ export default class App extends React.Component{
 render(){
     return(
         <div className='wrapper'>
-            <UserInput />
-            <Feedback guess={40} feedback='HOT' />
-            <History />
+            <div className='title'>
+                <h1>Choose a Number between 1 and 100</h1>
+            </div>
+            <div className='body-info'>
+                <div className='current-info'>
+                    <UserInput />
+                    <Feedback guess={40} feedback='HOT' color='red' />
+                </div>
+                <History />
+            </div>
         </div>
     )
 }

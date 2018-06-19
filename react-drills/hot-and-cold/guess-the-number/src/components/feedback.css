@@ -1,0 +1,18 @@
+.recent-guess, .green, .red{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.green{
+    color: #039C3A;
+
+}
+
+.red{
+    color: #A80743;
+
+}
+
+p{
+    text-align: center;
+}
